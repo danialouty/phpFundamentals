@@ -15,7 +15,7 @@ else{
 }
 
 
-echo" <form action ='' method='post'>";
+echo" <form action ='' method='POST'>";
 
 echo "<label > insert a temp:</lable>";
 echo "<input type='text' name='tempr'> ";
