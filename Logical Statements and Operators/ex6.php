@@ -3,18 +3,15 @@
 
 $num1 =$_POST["num1"];
 
-if($num1> 0){
-if($num1 %3 ==0 ){
+if($num1>=20 && $num1<= 50){
+
     echo "true";
+
+
 }
+
 else{
     echo "false";
-}
-
-}
-
-else{
-    echo "give me a positive num";
 }
 $sum =0;
 
