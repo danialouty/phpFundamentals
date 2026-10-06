@@ -1,0 +1,22 @@
+<?php 
+
+
+$num1 =$_POST["num1"];
+
+
+
+
+echo" <form action ='' method='POST'>";
+
+echo "<label > insert a number:</lable>";
+echo "<input type='number' name='num1'> ";
+
+
+echo"<input type='submit' value'submit'>";
+
+echo "</form>";
+
+
+
+
+?>
