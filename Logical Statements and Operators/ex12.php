@@ -1,24 +1,16 @@
 <?php 
 
 
-$num1 =$_POST["num1"];
-$num2 =$_POST["num2"];
-$num3 =$_POST["num3"];
  
-$arr1 = [$num1,$num2,$num3];
-
-$maxnum = $arr1[$num1];
-
-foreach ($arr1 as $number) {
-
-    if($maxnum < $number) {
-
-
-    $maxnum = $number;
-    }
-
+$arr1 = [60,86,95,63,55,74,79,62,50];
+$sum =0;
+for ($i = 0; $i <= count($arr1); $i++){
+        
+    $sum += $arr1[$i] ;
 
 }
+$avg=$sum/count($arr1);
+
 
 echo $maxnum;
 
