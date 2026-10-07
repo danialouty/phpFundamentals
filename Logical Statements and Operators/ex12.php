@@ -12,7 +12,7 @@ for ($i = 0; $i <= count($arr1); $i++){
 $avg=$sum/count($arr1);
 
 
-echo $maxnum;
+echo $avg;
 
 
 echo" <form action ='' method='POST'>";
